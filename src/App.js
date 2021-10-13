@@ -6,7 +6,12 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>What Up!</h1>
+      <form className="serach-form">
+        <input className="search-bar" type="text" />
+        <button className="search-button" type="submit">
+          Search
+        </button>
+      </form>
     </div>
   );
 };
