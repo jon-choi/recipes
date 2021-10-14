@@ -9,7 +9,7 @@ const App = () => {
 
   useEffect(() => {
     console.log("effect has been run");
-  });
+  }, []);
 
   return (
     <div className="App">
