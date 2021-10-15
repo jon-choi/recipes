@@ -3,13 +3,18 @@ import "./App.css";
 import { useEffect, useState } from "react";
 
 const App = () => {
-  useEffect(() => {}, []);
+  const APP_ID = "6f2b2369";
+  const APP_KEY = "524181c5160ec35b26293273574d1da4";
+
+  useEffect(() => {
+    getRecipes();
+  }, []);
 
   const getRecipes = async () => {
     const response = await fetch(
-      `https://api.edamam.com/search?q=chicken&app_id=${process.env.APP_ID}&app_key=${process.env.APP_KEY}`
+      `https://api.edamam.com/search?q=chicken&app_id=${APP_ID}&app_key=${APP_KEY}`
     );
-    const data = response.json();
+    const data = await response.json();
     console.log(data);
   };
 
