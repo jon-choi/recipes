@@ -10,10 +10,20 @@
   background: white;
   align-items: center;
   min-width: 40%;
+  background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png");
+  font-family: 'Fascinate', sans-serif;
 }
 
 .image {
   border-radius: 50%;
   width: 100px;
   height: 100px;
+}
+
+.recipe-title {
+  margin-top: auto;
+  border-radius: 15px;
+  background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png");
+  background-color: #008c8c;
+  
 }

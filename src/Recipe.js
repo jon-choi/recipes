@@ -4,7 +4,7 @@ import style from "./recipe.module.css";
 const Recipe = ({ title, calories, image, ingredients }) => {
   return (
     <div className={style.recipe}>
-      <h1>{title}</h1>
+      <h1 className="recipe-title">{title}</h1>
       <ol>
         {ingredients.map((ingredient) => (
           <li className="font-style">{ingredient.text}</li>
