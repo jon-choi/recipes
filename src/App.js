@@ -19,6 +19,7 @@ const App = () => {
     );
     const data = await response.json();
     setRecipes(data.hits);
+    console.log(data.hits);
   };
 
   return (
@@ -29,6 +30,9 @@ const App = () => {
           Search
         </button>
       </form>
+      {recipes.map((recipe) => (
+        <Recipe />
+      ))}
     </div>
   );
 };
