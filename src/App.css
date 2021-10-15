@@ -29,3 +29,7 @@
   flex-wrap: wrap;
 }
 
+.font-style {
+  font-family: 'Unica One', sans-serif;
+  font-weight: 600;
+}
