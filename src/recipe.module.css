@@ -11,7 +11,7 @@
   align-items: center;
   min-width: 40%;
   background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png");
-  font-family: 'Fascinate', sans-serif;
+  font-family: 'MuseoModerno', sans-serif;
 }
 
 .image {
@@ -25,5 +25,5 @@
   border-radius: 15px;
   background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png");
   background-color: #008c8c;
-  
+  font-family: 'MuseoModerno', sans-serif;
 }

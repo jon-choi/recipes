@@ -31,13 +31,13 @@
 
 .font-style {
   font-family: 'Unica One', sans-serif;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .title {
   text-align: center;
   margin-top: auto;
-  font-family: 'Cinzel Decorative', sans-serif;
+  font-family: 'Monoton', sans-serif;
   border-radius: 10px;
   box-shadow: 0px 10px 20px rgb(71, 71, 71);
   background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
