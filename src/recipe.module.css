@@ -21,9 +21,8 @@
 }
 
 .recipe-title {
-  margin-top: auto;
-  border-radius: 15px;
-  background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png");
-  background-color: #008c8c;
-  font-family: 'MuseoModerno', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
 }
