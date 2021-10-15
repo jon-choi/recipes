@@ -34,10 +34,10 @@
   font-weight: 400;
 }
 
-.title {
+.header{
   text-align: center;
   margin-top: auto;
-  min-height: 8vh;
+  min-height: 5vh;
   justify-content: center;
   align-items: center;
   font-family: 'Monoton', sans-serif;
