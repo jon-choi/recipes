@@ -1,10 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { useEffect, useState } from "react";
+import Recipe from "./Recipe";
 
 const App = () => {
   const APP_ID = "6f2b2369";
   const APP_KEY = "524181c5160ec35b26293273574d1da4";
+
+  const [recipes, setRecipes] = useState([]);
 
   useEffect(() => {
     getRecipes();
@@ -15,7 +18,7 @@ const App = () => {
       `https://api.edamam.com/search?q=chicken&app_id=${APP_ID}&app_key=${APP_KEY}`
     );
     const data = await response.json();
-    console.log(data);
+    setRecipes(data.hits);
   };
 
   return (
