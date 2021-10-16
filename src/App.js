@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { useEffect, useState } from "react";
 import Recipe from "./Recipe";
@@ -36,9 +35,9 @@ const App = () => {
 
   return (
     <div className="App">
-      <div>
+      <header>
         <h1 className="header">Recipes</h1>
-      </div>
+      </header>
       <form onSubmit={getSearch} className="search-form">
         <input
           className="search-bar"
