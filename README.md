@@ -5,7 +5,9 @@
   Simply run `npm start` to run the server
 
 ### Final Product
-![Demo]()
+  `Quick search for new recipes`
+  
+![Demo](https://github.com/jon-choi/recipes/blob/master/public/recipe-demo.gif?raw=true)
 
 
 
