@@ -2,7 +2,7 @@
   Easily find your next meal by searching for whatever your heart desires!
 
 ## Netlify Link
-  [Recipes](jonchoirecipes.netlify.app)
+  [Recipes](https://jonchoirecipes.netlify.app)
 
 ### Final Product
   `Quick search for new recipes`
