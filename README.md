@@ -1,8 +1,8 @@
 # Recipe
   Easily find your next meal by searching for whatever your heart desires!
 
-## Getting Started
-  Simply run `npm start` to run the server
+## Netlify Link
+  [Recipes](jonchoirecipes.netlify.app)
 
 ### Final Product
   `Quick search for new recipes`
